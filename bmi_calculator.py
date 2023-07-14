@@ -1,8 +1,8 @@
 
 print("Welcome to BMI calculator!")
 
-weight = input("What is your weight(kg) ? ")
-height = input("What is your height(m) ? ")
+weight = 80
+height = 1.8
 
 bmi = float(weight) / (float(height) ** 2)
 # bmi = weight / height * height
